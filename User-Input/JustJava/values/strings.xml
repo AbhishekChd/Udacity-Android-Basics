@@ -1,0 +1,46 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+
+    <!-- Hint text for EditText field [CHAR LIMIT=20]-->
+    <string name="enter_your_name">Enter your name</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20]-->
+    <string name="toppings">Toppings</string>
+
+    <!-- Header text for the checkbox hasWhippedCream [CHAR LIMIT=20]-->
+    <string name="whipped_cream">Whipped Cream</string>
+
+    <!-- Header text for the checkbox hasChocolate [CHAR LIMIT=20]-->
+    <string name="chocolate">Chocolate</string>
+
+    <!-- Header text for the quantity of coffee [CHAR LIMIT=20]-->
+    <string name="quantity">Quantity</string>
+
+    <!-- Text for the order button [CHAR LIMIT=20]-->
+    <string name="order">order</string>
+
+    <!-- Waring for ordering more than 100 coffees [CHAR LIMIT=40]-->
+    <string name="warning_100_coffee_limit">You cannot have more than 100 coffees</string>
+
+    <!-- Waring for ordering less than 1 coffee [CHAR LIMIT=40]-->
+    <string name="warning_1_coffee_limit">You cannot have less than 1 coffee</string>
+
+    <!-- Name, Whipped Cream, Chocolate, Quantity and Total Price for the order summary. It will be shown in the format
+            Name: Abhishek\n
+            Add Whipped Cream? true\n
+            Add Chocolate? true\n
+            Quantity: 1\n
+            Total: Rs. 8\n
+            where Abhishek is user's name, true is boolean, quantity and total are integers [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary">
+        Name: <xliff:g id="name" example="Abhishek">%s</xliff:g>\n
+        Add Whipped Cream? <xliff:g id="hasWhippedCream" example="true">%b</xliff:g>\n
+        Add Chocolate? <xliff:g id="hasChocolate" example="true">%b</xliff:g>\n
+        Quantity: <xliff:g id="quantity" example="1">%d</xliff:g>\n
+        Total: Rs. <xliff:g id="price" example="8">%d</xliff:g>\n
+    </string>
+
+    <!-- Thank you message for order summary [CHAR LIMIT=NONE]-->
+    <string name="thank_you">Thank you!</string>
+</resources>
